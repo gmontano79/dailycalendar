@@ -16,7 +16,7 @@ The deployment application link is https://gmontano79.github.io/dailycalendar/
 
 ### **Initial Page**
 
-![alt Page Screenshoot - Initial View](./assets/images/preview1.JPGG)
+![alt Page Screenshoot - Initial View](./assets/images/preview1.JPG)
 
 ### **Input information**
 
