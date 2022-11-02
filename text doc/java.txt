@@ -1,0 +1,32 @@
+//  **** TODAY DATE FORMAT ****
+function date() {
+  var today = moment();
+  $("#currentDay").text(today.format("MMM Do, YYYY"));
+}
+date()
+
+
+//  SAVE BUTTON
+var saveBtn = document.querySelector(".saveBtn");
+saveBtn.addEventListener("click", saveLocalStorage);
+function saveLocalStorage() {
+  var userinput = document.getElementById("userinput").value;
+  localStorage.setItem("ls_userInput", userinput);
+}
+
+// event text area
+
+$(".time-slot").on("click", ".time-block", function () {
+  var text = $(this).text().trim();
+  var textInput = $("<textarea>")
+    .addClass("col-10 form-control")
+    .val(text);
+
+  $(this).replaceWith(textInput);
+  textInput.trigger("focus")
+});
+
+
+
+// new date format using java
+

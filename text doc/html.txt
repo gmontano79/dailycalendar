@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Work Day Schedulers</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!--  JUMBOTRON SECTION *************** -->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <p id="today" class="lead"></p>
+    </header>
+     <!-- ****************************  Timeblocks go here ********* -->
+     
+      <div class="container time-slot">
+
+        <!-- **********  9AM BLOCK ****** -->
+        <div class="row ">
+          <div class="time time-block hour col-2">
+            <p>9AM</p> 
+          </div>
+          <div class="events present past future col-9">
+      
+          </div>
+          <div class="save saveBtn col-1">
+             <p id="savebtn">&#128190</p>  
+          </div>
+        </div>
+
+                <!-- **********  10AM BLOCK ****** -->
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>10AM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+            <textarea class="input-group-append col=12" id="userinput" rows="3" cols="80"></textarea>
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>  
+          </div>
+        </div>
+
+                <!-- **********  11AM BLOCK ****** -->
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>11AM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+            
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>  
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>12PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+     
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>1PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+           
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>2PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+           
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>3PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+        
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>4PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+           
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="time hour col-2">
+            <p>5PM</p> 
+          </div>
+          <div class="events  present past future  col-9">
+            
+          </div>
+          <div class="save saveBtn col-1">
+            <p class="i">&#128190</p>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+    
+    <script src="./assets/scripts/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+      integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
