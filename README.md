@@ -2,7 +2,7 @@
 
 ## Description
 
-This website has been created to serve as Portfolio for my career as a Web Developer
+This website has been created to help the user to keep a track of the daily acitivies.
 
 ## Installation
 
@@ -10,21 +10,21 @@ N/A
 
 ## Usage
 
-To use this page, simple you can navigate thru the different sections such as About me, where you can get to know a little more about my professional background in the IT field. Also you can have a section about the projects i ahve been working so far. And finally you can have a section about how I can be contact and the links to my profesional profile at GitHub and LinkedIn.
+To use this page the user just needs to click on the time block and type the information desired. then click on the Save button. when the information is saved it will dispaly a message on top of the time block saying that the information has been saved in the local storage. the information will remain as long as the local storage is not clear. Also the user will be a change of color depending on the time of the day. if the event is past, present or future time.
 
-**NOTE** : AT THIS SECTION I AM USING "PLACEHOLDER" TO
-DISPLAY PROJECTS BECAUSE CURRENTLY I HAVE NOT DEVELOPED ANY REAL
-PROJECTS. THIS SECTION WILL UPDATED ONCE I CREATE NEW PROJECTS.
+The deployment application link is https://gmontano79.github.io/dailycalendar/
 
-The deployment application link is https://gmontano79.github.io/portfolio/
+### **Initial Page**
 
-### **Desktop View**
+![alt Page Screenshoot - Initial View](./assets/images/preview1.JPGG)
 
-![alt Page Screenshoot - Desktop](./assets/img/portfoliopage-screenshot.JPG)
+### **Input information**
 
-### **Mobile View**
+![alt Page Screenshoot - input info](./assets/images/TYPEINPUT.JPG)
 
-![alt Page Screenshoot - mobile](./assets/img/portfoliopage-screenshot-mobile.JPG)
+### **Saved confirmation**
+
+![alt Page Screenshoot - confirmation](./assets/images/confirmation.jpg)
 
 ## Credits
 
